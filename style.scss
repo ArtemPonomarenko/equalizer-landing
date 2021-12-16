@@ -50,8 +50,10 @@ header {
   margin: 22px auto 0;
 }
 .equilizer-section {
-  max-width: 100%;
+  max-width: 375px;
   min-height: 926px;
+
+  margin: 0 auto;
   background-image: url(./assets/bg-pattern-2.svg);
   background-size: 280px 420px;
   background-position: top;
@@ -240,7 +242,7 @@ header {
   }
 }
 
-@media screen and(min-width: 1200px) {
+@media screen and(min-width: 1024px) {
   header {
     background-size: auto;
     background-position: 11rem -17rem, 100% -39px;
@@ -303,7 +305,7 @@ header {
 
   footer {
     max-width: 77%;
-    margin: 200px auto;
+    margin: 200px auto 25px;
     padding: 0;
     gap: 0;
   }
